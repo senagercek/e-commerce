@@ -21,6 +21,7 @@ export default function RootLayout({
       <head>
         <title>Style Forge</title>
         <meta name="description" content="Style Forge - E-commerce built with Next.js" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
